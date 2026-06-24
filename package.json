@@ -1,0 +1,31 @@
+{
+  "name": "mcp-server-dolibarr",
+  "version": "1.0.0",
+  "description": "MCP server for Dolibarr ERP/CRM — manage thirdparties, commercial proposals, contracts and invoices from any MCP-compatible AI client (Claude Code, Claude Desktop, etc.)",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-server-dolibarr": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "dolibarr",
+    "erp",
+    "crm",
+    "invoicing",
+    "claude"
+  ],
+  "author": "Nexora 360 Digital",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
